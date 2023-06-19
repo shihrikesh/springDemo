@@ -1,5 +1,8 @@
 package com.leanring.springDemo.springDI;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class MarioGame implements GameConsole {
 
     public void up() {
